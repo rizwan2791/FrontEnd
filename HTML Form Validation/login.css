@@ -1,0 +1,50 @@
+Body {  
+    font-family: Helvetica, sans-serif;  
+    background-image: linear-gradient(to right, rgb(0, 204, 255) , rgb(0, 60, 255)); 
+  }  
+
+.container {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px; 
+    border-top-right-radius:30px;  
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    background-color: rgb(25, 115, 143);  
+}  
+h3{
+    color:white;
+} 
+label{
+    color:white;
+}
+button {   
+    background-color: #ffffff;   
+    width: 100%;  
+     color: black;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      } 
+
+input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        /* border: 2px solid rgb(21, 134, 10);    */
+        box-sizing: border-box;   
+    }  
+button:hover {   
+        opacity: 0.7;   
+    }   
+.cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        

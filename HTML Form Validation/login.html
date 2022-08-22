@@ -1,0 +1,83 @@
+<!DOCTYPE html>  
+</html>
+<head><title>Login Page</title>  
+<link rel="stylesheet" href="login.css">
+</head>
+<body >    
+    <form name='registration' onSubmit="return formValidation();"> 
+        <div class="container">   
+            <center><label><h3>Student Login Form</h3></label></center>
+            <label>Name:</label> 
+            <input type="text"  placeholder= "Enter name" name="username" >  
+            <label >Password:</label>
+            <input type="password" placeholder= "Enter passward" name="pass" >
+            <label >Email:</label>
+            <input type="text" placeholder= "Enter Email" name="email">
+            <button type="submit">Login</button>   
+            <center><input type="checkbox" checked="checked"> Remember me   
+            Forgot <a href="#"> password? </a> </center>  
+        </div>   
+    </form>
+
+<script>
+function formValidation()
+{
+var usern = document.registration.username;
+var passid = document.registration.pass;
+var uemail = document.registration.email;
+{
+if(UserName(usern))
+{
+if(PassWard(passid,5,14))
+{
+if(EmailValidation(uemail))
+{
+} 
+}
+} 
+}
+return false;
+}
+function UserName(usern)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(usern.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Username must have alphabet characters only');
+usern.focus();
+return false;
+}
+}
+function PassWard(passid,mx,my)
+{
+var passid_len = passid.value.length;
+if (passid_len == 0 ||passid_len >= my || passid_len < mx)
+{
+alert("Password should not be empty / length be between "+mx+" to "+my);
+passid.focus();
+return false;
+}
+return true;
+}
+
+function EmailValidation(uemail)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(uemail.value.match(mailformat))
+{
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+uemail.focus();
+return false;
+}
+}
+</script>
+</body>
+</html>
