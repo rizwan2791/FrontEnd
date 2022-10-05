@@ -1,0 +1,39 @@
+{
+    "Books": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      },
+      {
+        "id": 2,
+        "title": " Clean Code",
+        "author": "Robert C. Martin"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen"
+      },
+      {
+        "id": 4,
+        "title": " Code Complete",
+        "author": "Steve McConnell"
+      },
+      {
+        "id": 5,
+        "title": "Design patterns",
+        "author": "Erich Gamma"
+      },
+      {
+        "title": " Core Java",
+        "author": "nageswara rao",
+        "id": 7
+      },
+      {
+        "title": " Core Java",
+        "author": "nageswara rao",
+        "id": 8
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: skyblue;
+}
+
+.child1{
+flex-basis: 450px;
+
+}
+
+.child2{
+    flex-basis: 450px;
+
+
+    }

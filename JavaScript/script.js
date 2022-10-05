@@ -111,3 +111,7 @@ console.log(addNewNumbers(20,700));
 console.log(addNewNumbers1(40,80));
 
 
+const addNew1 = function (a,b) {
+    return a+b;
+    
+}

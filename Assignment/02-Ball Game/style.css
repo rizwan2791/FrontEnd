@@ -1,0 +1,52 @@
+.bts{
+    background: blue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin:2px;
+    /* color: transparent; */
+    border-color:white;
+}
+
+.container {  
+    background-color:rgb(149, 188, 201);
+    margin-top:5px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top:20px; 
+    padding-bottom:20px; 
+    padding-left:100px;
+    padding-right:150px;
+    border-radius:20px;
+ 
+  } 
+.startButton{
+    width: 100%;
+    border: 2px solid grey;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+p{
+    width: 30%;
+    border: 2px solid grey;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30%;
+
+}
+.startButton {
+    transition-duration: 0.4s;
+  }
+  
+.startButton:hover {
+    background-color: grey; /* Green */
+    color: white;
+}

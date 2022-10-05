@@ -1,0 +1,23 @@
+.zeeshan{
+    color:red;
+}
+.adnan{
+    color:blue;
+}
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-image: linear-gradient(to right, rgb(0, 204, 255) , rgb(0, 60, 255)); 
+  }  
+  .container {  
+    background-color:rgb(155, 37, 145);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding :100px;  
+    border-top-right-radius:20px;  
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px
+ 
+  }  
